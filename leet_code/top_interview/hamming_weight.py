@@ -1,6 +1,7 @@
 from leet_code.util import number_util
 
 # https://leetcode-cn.com/problems/number-of-1-bits/
+
 def hammingWeight(n: int) -> int:
     return bin(n).count('1')
 
