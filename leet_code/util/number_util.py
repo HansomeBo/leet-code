@@ -1,5 +1,5 @@
 # 十进制转二进制
-def intToBin(n: int) -> str:
+def int_to_bin(n: int) -> str:
     res = '';
     while n:
         res += str(n % 2)
@@ -8,4 +8,4 @@ def intToBin(n: int) -> str:
 
 
 if __name__ == '__main__':
-    print(intToBin(33))
+    print(int_to_bin(33))

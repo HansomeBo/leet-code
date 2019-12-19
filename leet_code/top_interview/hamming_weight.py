@@ -1,12 +1,13 @@
 from leet_code.util import number_util
 
+
 # https://leetcode-cn.com/problems/number-of-1-bits/
 
-def hammingWeight(n: int) -> int:
+def hamming_weight(n: int) -> int:
     return bin(n).count('1')
 
 
-def hammingWeightII(n: int) -> int:
+def hamming_weight_ii(n: int) -> int:
     res = ""
     count = 0
     while n:
@@ -18,4 +19,4 @@ def hammingWeightII(n: int) -> int:
 
 
 if __name__ == '__main__':
-    print(number_util.intToBin(33))
+    print(number_util.int_to_bin(33))
