@@ -29,9 +29,9 @@ def is_palindrome_ii(head: ListNode) -> bool:
     pre = head
     prepre = None
     """
-      一次循环完成两件事情
-      一、快指针移动到链表结尾，慢指针移动到链表中间节点
-      二、前半部分链表反转
+        一次循环完成两件事情
+        一、快指针移动到链表结尾，慢指针移动到链表中间节点
+        二、前半部分链表反转
     """
     while fast and fast.next:
         pre = slow
@@ -39,6 +39,11 @@ def is_palindrome_ii(head: ListNode) -> bool:
         fast = fast.next.next
         pre.next = prepre
         prepre = pre
+    """
+        快指针每次移动两步
+        从快指针是否为空判断出链表长度的奇偶
+        快指针为空，表示链表长度为奇数，慢指针向下位移一步
+    """
     if fast is not None:
         slow = slow.next
     while slow and pre:
