@@ -63,12 +63,12 @@ def get_next_node(array: [], index: int) -> ListNode:
     return node
 
 
-def reversal_list(node: ListNode) -> ListNode:
+def reversal_list(head: ListNode) -> ListNode:
     pre = None
     prepre = None
-    while node:
-        pre = node
-        node = node.next
+    while head:
+        pre = head
+        head = head.next
         pre.next = prepre
         prepre = pre
     return pre
