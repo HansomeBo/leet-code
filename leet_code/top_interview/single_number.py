@@ -4,7 +4,7 @@
 # @Software: PyCharm
 # https://leetcode-cn.com/problems/single-number/
 
-def singleNumber(self, nums: [int]) -> int:
+def single_number(self, nums: [int]) -> int:
     """
     与或运算方式
     :param self:
@@ -18,4 +18,4 @@ def singleNumber(self, nums: [int]) -> int:
 
 
 if __name__ == '__main__':
-    print(singleNumber(None, [1, 2, 3, 1, 2]))
+    print(single_number(None, [1, 2, 3, 1, 2]))
