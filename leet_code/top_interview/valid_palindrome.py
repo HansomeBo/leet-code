@@ -2,6 +2,7 @@
 # @Author : HansomeBo
 # @File : valid_palindrome.py
 # @Software: PyCharm
+# https://leetcode-cn.com/problems/valid-palindrome/
 def isPalindrome(self, s: str) -> bool:
     length = len(s)
     i = 0
@@ -23,4 +24,3 @@ def isPalindrome(self, s: str) -> bool:
 
 if __name__ == '__main__':
     print(isPalindrome(None, "`l;`` 1o1 ??;l`"))
-    # print("A" <= "`" <= "Z" or "a" <= "`" <= "z")
