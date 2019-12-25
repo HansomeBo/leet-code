@@ -5,7 +5,7 @@
 # https://leetcode-cn.com/problems/reverse-string/
 # 反转字符串
 
-def reverseString(self, s: [str]) -> None:
+def reverse_string(self, s: [str]) -> None:
     """
     Do not return anything, modify s in-place instead.
     """
@@ -19,5 +19,5 @@ def reverseString(self, s: [str]) -> None:
 
 if __name__ == '__main__':
     array = ['1', '2', '3', '4', '5']
-    reverseString(None, array)
+    reverse_string(None, array)
     print(array)
