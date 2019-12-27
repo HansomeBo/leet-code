@@ -44,7 +44,5 @@ def fou_sum_count(self, A: List[int], B: List[int], C: List[int], D: List[int]) 
     return count
 
 
-
-
 if __name__ == '__main__':
     print(fou_sum_count(None, [-1, -1], [-1, 1], [-1, 1], [1, -1]))
