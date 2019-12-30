@@ -9,6 +9,7 @@
 2、集合长度小于500
 """
 from typing import List
+import requests
 
 
 def fou_sum_count(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:
@@ -45,4 +46,4 @@ def fou_sum_count(self, A: List[int], B: List[int], C: List[int], D: List[int]) 
 
 
 if __name__ == '__main__':
-    print(fou_sum_count(None, [-1, -1], [-1, 1], [-1, 1], [1, -1]))
+    print(requests.get("https://baidu.com").text);
